@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Hero from "../assets/sam.png";
+import Bond from "../assets/bond.png";
 import { FaTwitter, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
 
@@ -18,7 +18,7 @@ const Home = () => {
         {/* Hero Content */}
         <div className="flex items-center gap-5">
           <div className="space-y-2 md:w-1/2">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl sm:pt-5 font-bold">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl sm:pt-8 font-bold">
               I am Durotimi
             </h3>
 
@@ -78,7 +78,7 @@ const Home = () => {
             ></div>
 
             <img
-              src={Hero}
+              src={Bond}
               alt="person"
               className="my-10 md:w-full lg:max-w-[50%] duration-300 
               origin-center rotate-[4.5deg] border-2 border-primaryColor rounded-[38px]
@@ -107,13 +107,6 @@ const Home = () => {
             <p className="text-5xl lg:text-6xl  font-bold">100k</p>
             <p>
               Happy <br /> Clients
-            </p>
-          </div>
-
-          <div className="flex items-center gap-3">
-            <p className="text-5xl lg:text-6xl  font-bold">5+</p>
-            <p>
-              Years of <br /> Experience
             </p>
           </div>
         </div>
