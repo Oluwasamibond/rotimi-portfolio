@@ -2,6 +2,7 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Hero from "../assets/sam.png";
 import { FaTwitter, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -29,15 +30,17 @@ const Home = () => {
             </p>
 
             <div className="flex items-center flex-wrap gap-5">
-              <button
-                className="text-primaryColor group border-2 px-6 py-3 my-2 flex items-center
+              <Link to="portfolio">
+                <button
+                  className="text-primaryColor group border-2 px-6 py-3 my-2 flex items-center
               hover:bg-primaryColorLight border-primaryColor rounded-full"
-              >
-                View My Work
-                <span className="group-hover:rotate-90 duration-300 ml-2">
-                  <HiArrowNarrowRight />
-                </span>
-              </button>
+                >
+                  View My Work
+                  <span className="group-hover:rotate-90 duration-300 ml-2">
+                    <HiArrowNarrowRight />
+                  </span>
+                </button>
+              </Link>
 
               <div className="flex items-center gap-5">
                 <div className="social-icon">
